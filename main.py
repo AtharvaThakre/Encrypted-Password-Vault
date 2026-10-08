@@ -59,7 +59,7 @@ class App:
 
         self._root = tk.Tk()
         self._root.title("Password Vault")
-        self._root.configure(bg="#1a1a2e")
+        self._root.configure(bg="white")
         self._root.geometry(f"{APP_WIDTH}x{APP_HEIGHT}")
         self._root.minsize(APP_MIN_WIDTH, APP_MIN_HEIGHT)
         self._root.resizable(True, True)
